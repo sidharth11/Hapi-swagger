@@ -1,0 +1,25 @@
+{
+  "name": "hapi-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "hapi-pino": "^9.0.0",
+    "hapi-swagger": "^9.1.3",
+    "inert": "^5.1.3",
+    "joi": "^14.0.0",
+    "swagger-jsdoc": "^6.1.0",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
